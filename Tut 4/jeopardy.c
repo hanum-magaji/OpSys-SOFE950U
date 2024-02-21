@@ -18,7 +18,7 @@ int winner()
 
 void show_results(player *players, int num_players);
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]) {
     // Array of 4 players
     player players[NUM_PLAYERS+1];
     int test = 0;
