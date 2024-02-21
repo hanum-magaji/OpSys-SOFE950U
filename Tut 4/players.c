@@ -16,8 +16,7 @@ bool player_exists(player *players, int num_players, char *name)
     return false;
 }
 
-// Go through the list of players and update the score for the 
-// player given their name
+// Go through the list of players and update the score for the player given their name
 void update_score(player *players, int num_players, char *name, int score)
 {
     for(int x = 0; x < num_players; x++)
